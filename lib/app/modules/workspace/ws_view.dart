@@ -143,6 +143,15 @@ class WSView extends StatelessWidget {
                   ))
             ],
           ),
-        ));
+        ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          
+        },
+        backgroundColor: Colors.deepOrange,
+        child: const Icon(Icons.add, color: Colors.white),
+        tooltip: 'Simpan Chapter',
+      ),
+    );
   }
 }
